@@ -1,7 +1,8 @@
+class Solution{
 public int removeDuplicates(int[] nums){
     int len = nums.length;
     if(len<=2){
-        return n;
+        return len;
     }
     int k=2;
     for(int i=2;i<len;i++){
@@ -11,4 +12,5 @@ public int removeDuplicates(int[] nums){
         }
     }
     return k;
+}
 }

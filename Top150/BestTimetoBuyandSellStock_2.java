@@ -1,3 +1,4 @@
+class Solution{
 public int maxProfit(int[] prices){
     int buy =prices[0];
     int sell =0;
@@ -19,4 +20,5 @@ public int maxProfit(int[] prices){
         res+=sell-buy;
     }
     return res;
+}
 }

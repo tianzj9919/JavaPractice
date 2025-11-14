@@ -1,3 +1,4 @@
+class Solution{
 public int removeElement(int[] nums, int val){
     int len = nums.length;
     int k=0;
@@ -10,4 +11,5 @@ public int removeElement(int[] nums, int val){
         }
     }
     return k;
+}
 }

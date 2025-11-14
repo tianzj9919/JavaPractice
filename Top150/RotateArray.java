@@ -1,3 +1,4 @@
+class Solution{
 public void rotate(int[] nums, int k){
     int len = nums.length;
     k = k % len;
@@ -11,4 +12,5 @@ public void reverse(int [] arr, int start, int end){
         arr[end]=arr[start]^arr[end];
         arr[start]=arr[start++]^arr[end--];
     }
+}
 }

@@ -1,3 +1,4 @@
+class Solution{
 public int majorityElement(int[] nums){
     int count =0;
     int res = 0;
@@ -15,4 +16,5 @@ public int majorityElement(int[] nums){
         }
     }
     return res;
+}
 }

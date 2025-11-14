@@ -1,3 +1,4 @@
+class Solution{
 public int removeDuplicates(int[] nums){
     int k=0;
     int cur=0;
@@ -13,4 +14,5 @@ public int removeDuplicates(int[] nums){
         }
     }
     return k;
+}
 }
