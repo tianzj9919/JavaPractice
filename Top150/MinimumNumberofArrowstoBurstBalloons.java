@@ -7,7 +7,6 @@ class Solution {
 
         Arrays.sort(points,(a,b) -> Integer.compare(a[0],b[0]));
 
-        int curStart = points[0][0];
         int curEnd = points[0][1];
         int count = 0;
 
@@ -16,11 +15,9 @@ class Solution {
             int end = points[i][1];
 
             if(start<=curEnd){
-                curStart = start;
                 curEnd = Math.min(curEnd,end);
             }else{
                 count++;
-                curStart = start;
                 curEnd = end;
             }
         }
